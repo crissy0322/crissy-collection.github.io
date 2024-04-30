@@ -1,0 +1,44 @@
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+main {
+  padding: 20px;
+}
+
+/* Product container */
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: calc(33% - 20px); /* Adjust for number of products per row */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin-bottom: 5px;
+}
+
+.product button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
